@@ -1,0 +1,664 @@
+[ 2017-07-13T00:08:26+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023276s ]
+ERR: 参数错误或者未定义:url
+
+[ 2017-07-13T00:08:44+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 317 行.
+
+[ 2017-07-13T00:10:18+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+
+[ 2017-07-13T00:10:33+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Undefined index: access_token D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 318 行.
+
+[ 2017-07-13T00:10:59+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 317 行.
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 319 行.
+
+[ 2017-07-13T00:14:39+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002388s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 318 行.
+
+[ 2017-07-13T00:14:40+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 318 行.
+
+[ 2017-07-13T00:15:18+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+
+[ 2017-07-13T00:15:27+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 318 行.
+
+[ 2017-07-13T00:15:47+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 318 行.
+
+[ 2017-07-13T00:19:13+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+ERR: 参数错误或者未定义:url
+
+[ 2017-07-13T00:19:33+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031589s ]
+
+[ 2017-07-13T00:19:46+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2017-07-13T00:19:54+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001920s ]
+
+[ 2017-07-13T00:25:59+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002878s ]
+
+[ 2017-07-13T00:26:17+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-07-13T00:26:40+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001870s ]
+
+[ 2017-07-13T00:27:55+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004495s ]
+
+[ 2017-07-13T00:36:38+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002692s ]
+
+[ 2017-07-13T00:36:45+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 315 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001881s ]
+
+[ 2017-07-13T00:44:17+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002359s ]
+
+[ 2017-07-13T00:47:13+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 324 行.
+
+[ 2017-07-13T00:53:38+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 321 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002436s ]
+
+[ 2017-07-13T00:53:45+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 321 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002607s ]
+
+[ 2017-07-13T00:54:06+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 321 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2017-07-13T00:55:53+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003114s ]
+
+[ 2017-07-13T00:55:54+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002513s ]
+
+[ 2017-07-13T00:55:55+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002021s ]
+
+[ 2017-07-13T00:55:55+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002014s ]
+
+[ 2017-07-13T00:55:55+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2017-07-13T00:56:00+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+ERR: 参数错误或者未定义:url
+
+[ 2017-07-13T00:56:15+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpcurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+ERR: 参数错误或者未定义:url
+
+[ 2017-07-13T00:56:19+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+
+[ 2017-07-13T00:56:39+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002374s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 323 行.
+
+[ 2017-07-13T00:56:54+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 323 行.
+
+[ 2017-07-13T00:56:55+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 323 行.
+
+[ 2017-07-13T00:56:55+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 323 行.
+
+[ 2017-07-13T00:57:17+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 323 行.
+
+[ 2017-07-13T00:57:19+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 323 行.
+
+[ 2017-07-13T00:57:20+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 323 行.
+
+[ 2017-07-13T00:57:26+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+
+[ 2017-07-13T00:57:33+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpCurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002550s ]
+
+[ 2017-07-13T00:58:06+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/httpCurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+ERR: 参数错误或者未定义:url
+
+[ 2017-07-13T00:58:13+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002130s ]
+
+[ 2017-07-13T00:58:25+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-07-13T00:58:32+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 324 行.
+
+[ 2017-07-13T00:58:47+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 323 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002770s ]
+
+[ 2017-07-13T00:58:48+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 323 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001928s ]
+
+[ 2017-07-13T00:59:06+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 324 行.
+
+[ 2017-07-13T00:59:07+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 324 行.
+
+[ 2017-07-13T00:59:07+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 324 行.
+
+[ 2017-07-13T01:07:47+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+NOTIC: [2] curl_error(): 26 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002958s ]
+
+[ 2017-07-13T01:09:35+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+NOTIC: [2] curl_error(): 26 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002403s ]
+
+[ 2017-07-13T01:09:39+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/getWxAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2017-07-13T01:09:42+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+NOTIC: [2] curl_error(): 26 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001983s ]
+
+[ 2017-07-13T01:14:55+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+NOTIC: [2] curl_error(): 26 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002368s ]
+
+[ 2017-07-13T01:15:12+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+
+[ 2017-07-13T01:15:42+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+NOTIC: [2] curl_error(): 26 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002649s ]
+
+[ 2017-07-13T01:16:13+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+NOTIC: [2] curl_error(): 26 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-07-13T01:17:32+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+NOTIC: [2] curl_error(): 26 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002522s ]
+
+[ 2017-07-13T01:18:04+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+NOTIC: [2] curl_error(): 26 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003186s ]
+
+[ 2017-07-13T01:18:50+08:00 ] 127.0.0.1 /Subscription/wechat/index.php/home/api/definedItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002169s ]
+NOTIC: [8] Undefined variable: _SEESION D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 322 行.
+NOTIC: [2] curl_error(): 25 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+NOTIC: [2] curl_error(): 26 is not a valid cURL handle resource D:\wechat\Subscription\wechat\Home\Controller\ApiController.class.php 第 292 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001984s ]
+
