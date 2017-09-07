@@ -90,7 +90,20 @@ class IndexController extends Controller {
 			// 从开发者文档中可知道，此时 Event 返回的是大写的 CLICK 
 			// 所以不能直接写 click 判断
 			elseif ( strtolower($postObj->Event) == 'click') {
-				$this->pushText($toUser, $fromUser, '点击了项目');
+				$content = '自定义菜单推送事件';
+				// 判断菜单一
+				if ($postObj->EventKey == 'item2') {
+					$content = '项目二推送事件';
+				}
+				// 判断菜单二
+				elseif ($postObj->EventKey == 'songs') {
+					$content = '项目三的歌曲推送事件';
+				}
+				// 判断菜单三
+				elseif( $postObj->EventKey == 'item1'){
+					$content = '项目一推送事件';
+				}
+				$this->pushText($toUser, $fromUser, $content);
 			}
 			// 其它
 			else{
@@ -189,21 +202,21 @@ class IndexController extends Controller {
 	// 定义图文资源
 	private static $arts = array(
 		array(
-			'title'=>'click here open sina page. ', // 标题
+			'title'=>'新浪. ', // 标题
 			'description'=>"新浪很棒！", // 描述 
 			'picUrl'=>'http://i1.sinaimg.cn/dy/deco/2013/0329/logo/LOGO_1x.png', // 图片地址
 			'url'=>'http://www.sina.com', // 可打开的页面地址
 		),
 		// 一个则是单个图文
 		array(
-			'title'=>'click here open baidu page.',
-			'description'=>"baidu is very cool",
+			'title'=>'百度',
+			'description'=>"百度很厉害!",
 			'picUrl'=>'https://www.baidu.com/img/bdlogo.png',
 			'url'=>'http://www.baidu.com',
 		),
 		array(
-			'title'=>'click here open qq page.',
-			'description'=>"qq is very cool",
+			'title'=>'QQ',
+			'description'=>"QQ也很棒！",
 			'picUrl'=>'http://mat1.gtimg.com/www/images/qq2012/qqlogo_1x.png',
 			'url'=>'http://www.qq.com',
 		),
@@ -284,25 +297,26 @@ class IndexController extends Controller {
 	                'name' => urlencode('项目一'),
 	                'type' => 'click',
 	                'key' => 'item1',
-	            ),
-	            array('name' => urlencode('项目二'), 'sub_button' => array(
+	            ),// 第一个菜单
+	            array(
+	                'name' => urlencode('项目二'),
+	                'type' => 'click',
+	                'key' => 'item2',
+	            ),// 第二个菜单 
+	            array('name' => urlencode('项目三'), 'sub_button' => array(
 	                    array(
 	                        'name' => urlencode('歌曲'),
 	                        'type' => 'click',
 	                        'key' => 'songs'
-	                    ),//第一个二级菜单
+	                    ),//第三个菜单的子菜单一
 	                    array(
-	                        'name' => urlencode('电影'),
+	                        'name' => urlencode('优酷'),
 	                        'type' => 'view',
-	                        'url' => 'http://www.baidu.com'
-	                    ),//第二个二级菜单
+	                        'url' => 'http://www.youku.com'
+	                    ),//第三个菜单的子菜单二
 	                )
 	            ),
-	            array(
-	                'name' => urlencode('项目三'),
-	                'type' => 'view',
-	                'url' => 'http://www.qq.com',
-	            ),
+
 	        ),
 	    );
 		// 3.对该数组编码
@@ -312,6 +326,35 @@ class IndexController extends Controller {
 		// 测试地址： http://qloverwechat.duapp.com/wechat/index.php/home/index/definedItem
 	}
 
+
+	// 群发接口
+	// 正式号一个月只有四次机会
+	// 所以要用 预览接口【订阅号与服务号认证后均可用】
+	public function sendMsgAll(){
+		// 1.获取全局 access_token
+		$access_token = $this->getAccessToken();
+		$url = "https://api.weixin.qq.com/cgi-bin/message/mass/preview?access_token=".$access_token;
+		// 2.组装群发接口数据
+		$array = array(
+			'touser'=>'od-P6v27wIyHTPouNZnvEGhcfm4w', // 微信用户的 openid 
+			'text'=>array('content'=> 'I am very happy!'),
+			'msgtype'=>'text', // 消息类型
+		);
+		// 下面是群发接口的单文本数据格式
+		/*{     
+		    "touser":"OPENID",
+		    "text":{           
+		           "content":"CONTENT"            
+		           },     
+		    "msgtype":"text"
+		}*/
+		// 3.将数组转成 json 格式
+		$postJSON = json_encode( $array );
+		// 4.调用 curl 
+		$res = $this->httpCurl($url, 'post', 'json', $postJSON);
+		var_dump($res);
+		// 测试地址： http://qloverwechat.duapp.com/wechat/index.php/home/index/sendMsgAll
+	}
 
 
 
