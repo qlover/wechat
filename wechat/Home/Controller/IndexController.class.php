@@ -260,4 +260,132 @@ class IndexController extends Controller {
 
 	}
 
+
+
+	// 自定义菜单 
+	public function definedItem(){
+		// 1.获取 access_token，并调用自定义菜单调用接口
+		$access_token = $this->getAccessToken();
+		// 将刚获取到的 access_token 接入接口
+		$url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$access_token;
+		// 2.定义自定义菜单项
+		// 不知道为什么，这个数组离开了该方法就会报错目前先这样写吧
+		$items = array(
+	        'button' => array(
+	            array(
+	                'name' => urlencode('项目一'),
+	                'type' => 'click',
+	                'key' => 'item1',
+	            ),
+	            array('name' => urlencode('项目二'), 'sub_button' => array(
+	                    array(
+	                        'name' => urlencode('歌曲'),
+	                        'type' => 'click',
+	                        'key' => 'songs'
+	                    ),//第一个二级菜单
+	                    array(
+	                        'name' => urlencode('电影'),
+	                        'type' => 'view',
+	                        'url' => 'http://www.baidu.com'
+	                    ),//第二个二级菜单
+	                )
+	            ),
+	            array(
+	                'name' => urlencode('项目三'),
+	                'type' => 'view',
+	                'url' => 'http://www.qq.com',
+	            ),
+	        ),
+	    );
+		// 3.对该数组编码
+		$postJSON = urldecode(json_encode($items));
+		// 采集信息
+		$res = $this->httpCurl($url, 'post', 'json', $postJSON);
+		// 测试地址： http://qloverwechat.duapp.com/wechat/index.php/home/index/definedItem
+	}
+
+
+
+
+
+	/* 工具类 */
+	
+
+	// 信息采集工具 
+	/**
+	 * [httpCurl 调用微信接口]
+	 * @param  string $url  接口 url 地址
+	 * @param  string $type 调用方式，默认 get 
+	 * @param  string $res  返回数据类型，默认 json 格式 
+	 * @param  string $arr  post 请求参数
+	 * @return array 		一个 json 格式数组对象
+	 */	
+	public function httpCurl($url, $type='get', $res='json', $arr=''){
+		// 1.初始化 curl
+		$ch = curl_init();
+		// 2.设置 curl, 默认传来的是用 get 方法处理
+		// curl_setopt() 
+		// 参数一则是一个 由 curl_init()  返回的 cURL 句柄。
+		// 参数二则是一个标记的整型数，可以去手册查看，
+		// 	这里表示：需要获取的URL地址，也可以在 curl_init() 函数中设置。 
+		// 参数三则是应该被设置一个 bool 类型的值,一般就 url 地址，不然就是0 或 1
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); // 将 curl_exec() 获取的信息以文件流的形式返回，而不是直接输出。 
+		// 3.采集信息
+		// 如果是不是 get 方式则
+		if ( $type == 'post') {
+			// 启用时会发送一个常规的POST请求，
+			//   类型为：application/x-www-form-urlencoded，就像表单提交的一样
+			curl_setopt($ch, CURLOPT_POST, 1);
+			// 全部数据使用HTTP协议中的"POST"操作来发送
+			curl_setopt($ch, CURLOPT_POSTFIELDS, $arr);
+		}
+		$output = curl_exec($ch);
+		// 4.关闭资源
+		curl_close($ch);
+		// 资源关闭后要返回结果
+		if ($res == 'json') {
+			if ( curl_error($ch) ) {
+				// 请求失败，返回错误信息
+				return curl_error($ch);
+			}else{
+				// 请求成功, 将采集到的串以 JSON 形式编码
+				return json_decode($output, true);
+			}
+		}
+
+
+	}
+
+
+	// 获取 access_token
+	public function getAccessToken(){
+		// 1.判断是否存在或者是过期
+		if ($_SESSION['access_token'] && $_SESSION['expire_time'] > time() ) {
+			// 2.直接返回 access_token
+			return $_SESSION['access_token'];
+		}
+		// 3.重新获取 access_token
+		else{
+			// 该信息从微信开发者中心获取
+			$appid = 'wx9c807e4f802a2033';
+			$appSecret =  '2a385fecf5756cd4ed3402a99c3bc979';
+			$url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=".$appid."&secret=".$appSecret;
+			// 采集该地址接口中的信息
+			$rec = $this->httpCurl($url); // 其余参数全默认
+			$access_token = $rec['access_token'];
+			// 将重新获取到的 access_token 存到 session 中并返回
+			$_SEESION['access_token'] = $access_token;
+			$_SEESION['expire_time'] = time()+7200;
+			return $access_token;
+		}
+
+
+	}
+
+
+
+
+
+
 }
