@@ -75,8 +75,8 @@ class IndexController extends Controller {
 			// 而用来判断则是刚才判断是否有的 Event 事件
 			
 
-			// 关注事件 # subscribe(订阅)、unsubscribe(取消订阅)
 
+			// 关注事件 # subscribe(订阅)、unsubscribe(取消订阅)
 			if ( $postObj->Event == 'subscribe') {
 				// 知道了是关注事件推送就可以按 SDK 中的功能为用户提供信息
 				// 这里也需特别注意，因为上面已经将身份交换
@@ -86,15 +86,23 @@ class IndexController extends Controller {
 				$content .= "\n你可以输入【hello】或者是【你好】\n还可以输入【news】来获取最热新闻。";
 				$this->pushText($toUser, $fromUser, $content);
 			}
+			// 自定义菜单事件推送
+			// 从开发者文档中可知道，此时 Event 返回的是大写的 CLICK 
+			// 所以不能直接写 click 判断
+			elseif ( strtolower($postObj->Event) == 'click') {
+				$this->pushText($toUser, $fromUser, '点击了项目');
+			}
+			// 其它
+			else{
+				$this->pushText($toUser, $fromUser, '什么事件？' );	
+			}
+
+
 		}
-
-
-
-
 		// 被动回复
 		
 		// 文本
-		if ( $postObj->MsgType == 'text' ) {
+		elseif ( $postObj->MsgType == 'text' ) {
 			// 1.获取用户输入的关键字
 			$postCont = trim($postObj->Content);
 
